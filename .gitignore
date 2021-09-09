@@ -1,0 +1,9 @@
+# ignore files
+*.vs
+
+
+# ignore directories
+/TakeOff/Debug/
+/TakeOff/Release/
+/Sandbox/Debug/
+/Sandbox/Release/
