@@ -1,9 +1,13 @@
 # ignore files
 *.vs
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
 
 
 # ignore directories
-/TakeOff/Debug/
-/TakeOff/Release/
-/Sandbox/Debug/
-/Sandbox/Release/
+/Aurora/bin/
+/Aurora/obj/
+/Sandbox/bin/
+/Sandbox/obj/

@@ -1,0 +1,3 @@
+[submodule "Aurora/thirdparty/spdlog"]
+	path = Aurora/thirdparty/spdlog
+	url = https://github.com/gabime/spdlog.git
