@@ -1,20 +1,21 @@
 /*runtime application*/
 #pragma once
 
+#include "Window.h"
+#include "GLFW/glfw3.h"
+
 namespace Aurora
 {
-	
+
 	class Application
 	{
 	public:
-		Application()
-		{
+		Application();
+		virtual ~Application() = default;
 
-		}
-		~Application()
-		{
-
-		}
+	private:
+		//std::unique_ptr<Window> 
+		Window* m_window;
 
 		//virtual void Run();
 		//virtual void End();

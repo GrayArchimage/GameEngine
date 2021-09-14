@@ -17,7 +17,13 @@ project "Aurora"
 	includedirs
 	{
 		"src",
-		"thirdparty/spdlog/include",
+		thirdparty .. "/spdlog/include",
+		thirdparty .. "/GLFW/include",
+	}
+
+	links
+	{
+		"GLFW"
 	}
 
 	filter "configurations:Debug"

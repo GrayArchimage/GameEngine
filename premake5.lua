@@ -9,5 +9,8 @@ workspace "Aurora"
 		"Dist"
 	}
 
+thirdparty = "%{wks.location}/Aurora/thirdparty"
+
 include "Aurora"
 include "Sandbox"
+include "Aurora/thirdparty/GLFW"

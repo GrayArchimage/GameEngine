@@ -7,7 +7,8 @@ project "Sandbox"
 	includedirs
 	{
 		"%{wks.location}/Aurora/src",
-		"%{wks.location}/Aurora/thirdparty/spdlog/include",
+		thirdparty .. "/spdlog/include",
+		thirdparty .. "/GLFW/include",
 	}
 
 	defines
